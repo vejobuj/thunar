@@ -1,6 +1,5 @@
 #!/bin/bash
-    sudo -u chrome chown chrome:bar "$@" -R
-    sudo -u chrome chmod g+rwx "$@" -R
+    sudo -u chrome chmod go+rwx "$@" -R
 echo "All done. And hit enter key to exit."
 read end;
 
