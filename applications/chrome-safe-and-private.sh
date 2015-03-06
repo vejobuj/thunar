@@ -2,10 +2,11 @@
 
 # /etc/sudoers :: bar     ALL=(chrome) NOPASSWD: ALL
 # adduser chrome -s /sbin/nologin
-# usermod -aG pulse,pulse-access,audio chrome
+# usermod -aG pulse,pulse-access,audio,lp chrome
 # chmod o-rwx /home/bar -R
 # chown chrome:bar /home/chrome -R
 # chmod 770 /home/chrome -R
+# see also: nano /etc/dbus-1/system.d/bluetooth.conf
 
 sudo -u chrome pulseaudio -k
 
