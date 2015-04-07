@@ -1,6 +1,6 @@
 #!/bin/bash
     echo 'File details:'
-    ls -halZ "$@"
+    ls -haZl "$@"
 echo "All done. And hit enter key to exit."
 read end;
 
